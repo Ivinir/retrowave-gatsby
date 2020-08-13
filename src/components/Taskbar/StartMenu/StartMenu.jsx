@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import styles from './StartMenu.module.scss';
-import StartMenuContext from '../../context/StartMenuContext';
+import StartMenuContext from '../../../context/StartMenuContext';
 
 const StartMenu = () => {
   const [startMenu] = useContext(StartMenuContext);
