@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import styles from './RightBox.module.scss';
-import LanguageSelector from './LanguageSelector/LanguageSelector.jsx';
-import Clock from './Clock/Clock.jsx';
+import styles from './Clock.module.scss';
 
-const RightBox = () => {
+const Clock = () => {
   const [time, setTime] = useState(() => new Date());
 
   function getTime() {
@@ -22,11 +20,8 @@ const RightBox = () => {
   });
 
   return (
-    <div className={`rightBox ${styles.taskbarRightBox}`}>
-      <LanguageSelector />
-      <Clock />
-    </div>
+    <span className={`clock ${styles.clock}`}>{time.toString()}</span>
   );
 };
 
-export default RightBox;
+export default Clock;

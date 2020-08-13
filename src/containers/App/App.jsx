@@ -4,6 +4,10 @@ import { I18nextProvider } from 'react-i18next';
 import i18next from 'i18next';
 import Layout from '../Layout/Layout.jsx';
 
+import 'typeface-press-start-2p';
+import 'typeface-vt323';
+import 'typeface-major-mono-display';
+
 import commonEn from '../../translations/en/common.json';
 import commonEs from '../../translations/es/common.json';
 import commonZh from '../../translations/zh/common.json';

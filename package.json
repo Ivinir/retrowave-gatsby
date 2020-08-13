@@ -22,7 +22,10 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
-    "react-i18next": "^11.7.0"
+    "react-i18next": "^11.7.0",
+    "typeface-major-mono-display": "0.0.71",
+    "typeface-press-start-2p": "0.0.72",
+    "typeface-vt323": "0.0.72"
   },
   "devDependencies": {
     "eslint-config-react-app": "^5.2.1",
