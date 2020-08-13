@@ -11,9 +11,10 @@ module.exports = {
   },
   rules: {
     indent: ['error', 2],
+    'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
   },
   env: {
     browser: true,
     node: true,
-  }
+  },
 };
