@@ -1,0 +1,10 @@
+@import '../../../atoms/theme/variables';
+
+.taskbarRightBox {
+  background-color: $footer-right-box-color;
+  border-bottom: 2px solid white;
+  border-left: 2px solid grey;
+  border-right: 2px solid white;
+  border-top: 2px solid grey;
+  display: flex;
+}

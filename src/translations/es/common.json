@@ -1,0 +1,16 @@
+{
+  "taskbar": {
+    "leftBox": {
+      "start": "Inicio"
+    }
+  },
+  "startMenu": {    
+    "myName":"diego santaolalla",
+    "item": {
+      "aboutMe": "Sobre mi",
+      "social": "Social",
+      "myTools": "Mis Herramientas",
+      "curriculumVitae": "Curriculum Vitae"
+    }
+  }
+}

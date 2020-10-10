@@ -1,0 +1,27 @@
+@import "../../../atoms/theme/variables";
+
+.leftBox {
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  border-left: 2px solid white;
+  border-right: 2px solid black;
+  border-top: 2px solid white;
+  display: flex;
+  font-family: $font-console;
+  font-size: 23px;
+  line-height: 23px;
+  padding: 0 10px;
+}
+
+.leftBoxActive {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  background-color: #a7a6a6;
+}
+
+.leftBox__imageContainer {
+  margin-right: 4px;
+  width: 23px;
+}

@@ -75,7 +75,7 @@ const SEO = ({
       ].concat(meta)}
     />
   );
-}
+};
 
 SEO.defaultProps = {
   lang: 'en',
